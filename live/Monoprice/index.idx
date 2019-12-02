@@ -1,0 +1,4 @@
+min_slic3r_version = 2.1.0-alpha0
+0.0.5 Rework start/ed gcode from mpmd_marlin_1.1.x (119r02+)
+0.0.4 Start gcode adjusted for MPMD4Marlin firmware (v1.3.3)
+0.0.3 Ok settings for Monoprice Mini Delta (OEM firmware)

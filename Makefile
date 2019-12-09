@@ -11,8 +11,6 @@ CHANGES_URL = ${CONFIGS_URL}/changelog.html
 # use the path to the Makefile as root 
 ZD := $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
 
-VPATH = $(ZD)
-
 .PHONY : all clean $(VENDORS) post
 
 all : $(VENDORS)
@@ -38,15 +36,15 @@ $(eval $(shell grep -m 1 '^config_version\W=\W' ${ZD}${MFGR}.ini))
 FN = ${config_version}.ini
 endif
 
-latest.ini : ${MFGR}.ini
+latest.ini : ${ZD}${MFGR}.ini
 	cp "$<" "${FN}"
 	@sed -i -e 's!__CONFIG_UPDATE_URL__!${CONFIGS_URL}!' "${FN}" 
 	@sed -i -e 's!__CHANGELOG_URL__!${CHANGES_URL}!' "${FN}" 
 	ln -sfn "${FN}" "$(<F)"
 	ln -sfn "${FN}" "$(@F)"
 
-changelog.md : ${MFGR}.md
+changelog.md : ${ZD}${MFGR}.md
 	cp "$<" "$@"
 
-index.idx : ${MFGR}.idx
+index.idx : ${ZD}${MFGR}.idx
 	cp "$<" "$@"

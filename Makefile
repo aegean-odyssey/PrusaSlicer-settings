@@ -5,8 +5,11 @@ URL = http://github.com/aegean-odyssey/PrusaSlicer-settings/raw/master
 REPO = live
 #MFGR =
 
+CFG = .PrusaSlicer
+
 CONFIGS_URL = ${URL}/${REPO}/${MFGR}
 CHANGES_URL = ${CONFIGS_URL}/changelog.html
+CONFIG_PATH = ${CFG}
 
 # use the path to the Makefile as root 
 ZD := $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
@@ -40,6 +43,7 @@ latest.ini : ${ZD}${MFGR}.ini
 	cp "$<" "${FN}"
 	@sed -i -e 's!__CONFIG_UPDATE_URL__!${CONFIGS_URL}!' "${FN}" 
 	@sed -i -e 's!__CHANGELOG_URL__!${CHANGES_URL}!' "${FN}" 
+	@sed -i -e 's!__CONFIG_FOLDER__!${CONFIG_PATH}!' "${FN}" 
 	ln -sfn "${FN}" "$(<F)"
 	ln -sfn "${FN}" "$(@F)"
 

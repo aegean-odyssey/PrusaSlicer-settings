@@ -2,6 +2,15 @@
 
 # CHANGELOG
 
+## Release 0.0.7
+
+* Rework/revert start gcode for mpmd_marlin_1.1.x firmware. The
+  change in the previous release does not work well with the
+  firmware that limits the peak power consumption (for use with
+  the printer's stock 60-watt power adapter) -- often causing a
+  "thermal runaway" fault in the printer. Heating or pre-heating
+  the nozzle before heating the bed mostly avoids this situation.
+
 ## Release 0.0.6
 
 * Rework start gcode for mpmd_marlin_1.1.x firmware (119r02+)

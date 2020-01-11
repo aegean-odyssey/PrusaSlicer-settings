@@ -1,4 +1,5 @@
 min_slic3r_version = 2.1.0-alpha0
+0.0.7 Rework start gcode to avoid thermal runaway for mpmd_marlin_1.1.x
 0.0.6 Rework start gcode, tweak SIMPLE for mpmd_marlin_1.1.x (119r02+)
 0.0.5 Rework start/end gcode for mpmd_marlin_1.1.x (119r02+)
 0.0.4 Start gcode adjusted for MPMD4Marlin firmware (v1.3.3)

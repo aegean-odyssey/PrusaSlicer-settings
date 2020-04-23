@@ -24,7 +24,7 @@ clean :
 $(VENDORS) : ${ZD}${REPO}
 	mkdir -p "$</$@"
 	-cp -u $@*.png "$</$@/"  
-	-cp -u $@*.jpg "$</$@/"  
+#	#-cp -u $@*.jpg "$</$@/"  
 	-cp -u $@*.stl "$</$@/"  
 	$(MAKE) -C $</$@ -f ${ZD}Makefile MFGR=$@ post
 	cd "$</$@" && zip ../$@-vendors.zip * -i '$@*' -x '*.md'

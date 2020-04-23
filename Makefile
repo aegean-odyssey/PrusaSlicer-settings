@@ -7,8 +7,8 @@ REPO = live
 
 CFG = .PrusaSlicer
 
-CONFIGS_URL = ${URL}/${REPO}/${MFGR}
-CHANGES_URL = ${CONFIGS_URL}/changelog.html
+CONFIGS_URL = ${URL}/${REPO}/${MFGR}/
+CHANGES_URL = ${CONFIGS_URL}/changelog.md
 CONFIG_PATH = ${CFG}
 
 # use the path to the Makefile as root 

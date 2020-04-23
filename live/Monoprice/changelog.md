@@ -2,6 +2,12 @@
 
 # CHANGELOG
 
+## Release 0.0.8
+
+* Change PET to PETG to match Prusa's filament work
+* Change filament vendor from null to "Generic"
+* Add bed_model entry
+
 ## Release 0.0.7
 
 * Rework/revert start gcode for mpmd_marlin_1.1.x firmware. The

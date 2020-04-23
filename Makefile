@@ -8,7 +8,7 @@ REPO = live
 
 CFG = .PrusaSlicer
 
-CONFIGS_URL = ${URL}/${REPO}/${MFGR}/
+CONFIGS_URL = ${URL}/${REPO}/${MFGR}
 CHANGES_URL = ${CONFIGS_URL}/changelog.md
 CONFIG_PATH = ${CFG}
 

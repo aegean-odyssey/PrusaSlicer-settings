@@ -1,7 +1,8 @@
 PROJECT = PrusaSlicer-settings
 VENDORS = Monoprice Ultimaker
 
-URL = http://github.com/aegean-odyssey/PrusaSlicer-settings/raw/master
+URL = https://raw.githubusercontent.com/aegean-odyssey/${PROJECT}/master
+
 REPO = live
 #MFGR =
 

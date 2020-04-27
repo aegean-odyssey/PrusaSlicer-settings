@@ -4,6 +4,7 @@
 
 ## Release 0.0.8
 
+* Change printer id from MiniDelta to MPMD
 * Change PET to PETG to match Prusa's filament work
 * Change filament vendor from null to "Generic"
 * Add bed_model entry

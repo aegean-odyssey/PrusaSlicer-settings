@@ -1,5 +1,9 @@
 # PrusaSlicer settings
 
+[`Monoprice ChangeLog`](live/Monoprice/changelog.md) &nbsp;
+[`Ultimaker Changelog`](live/Ultimaker/changelog.md) &nbsp;
+
+
 > Currently, PrusaSlicer does not really support "vendor bundles" that are not compiled into the PrusaSlicer
 > application nor does it allow updates to the vendor settings from URLs that are not the official PrusaResearch
 > URL. With `PrusaSlicer-2.2.0`, the installation instructions below mostly work -- missing: printer thumbnail in

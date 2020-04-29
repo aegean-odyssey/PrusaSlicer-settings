@@ -1,4 +1,4 @@
-## PrusaSlicer settings - Monoprice (Mini Delta)
+## PrusaSlicer settings - Monoprice (MP Mini Delta)
 
 # CHANGELOG
 

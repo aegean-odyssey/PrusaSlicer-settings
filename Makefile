@@ -27,8 +27,8 @@ $(VENDORS) : ${ZD}${REPO}
 	mkdir -p "$</$@/$@/"
 	-cp -u $@/*.png $@/*.stl $@/*.svg "$</$@/$@/"  
 	$(MAKE) -C $</$@ -f ${ZD}Makefile MFGR=$@ post
-	rm -f "$</$@-vendors.zip"
-	cd "$</$@" && zip -r ../$@-vendors.zip * -i '$@*' -x '*.md'
+	rm -f "$</$@-vendor.zip"
+	cd "$</$@" && zip -r ../$@-vendor.zip * -i '$@*' -x '*.md'
 
 ${ZD}${REPO} :
 	mkdir -p "$@"

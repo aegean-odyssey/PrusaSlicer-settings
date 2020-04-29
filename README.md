@@ -31,7 +31,7 @@ These printer settings were developed in conjuction with the
 ### Ultimaker Original
 
 We have a few very old Ultimaker Original printers that we tinker with. The printer profile here is an early effort
-to use PrusaSlicer with these old printers. The settings work "ok", but could benefit with more work and attention.
+to use PrusaSlicer with these old printers. The settings perform "ok", but could benefit with more work and attention.
 
 ###### Installation
 

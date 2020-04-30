@@ -40,5 +40,5 @@ to use PrusaSlicer with these old printers. The settings perform "ok", but could
 * Unzip the file and place the contents in the `vendor` folder of PrusaSlicer's configuration directory;
 * Copy the `Ultimaker.idx` file and place in the `cache` folder of PrusaSlicer's configuration directory;
 * In PrusaSlicer's Preferences, select the item to allow Settings updates from non-PrusaResearch URLs (optional);
-* Use PrusaSlicer's Configuration Wizard to select the Monoprice vendor and printer.
+* Use PrusaSlicer's Configuration Wizard to select the Ultimaker vendor and printer.
 

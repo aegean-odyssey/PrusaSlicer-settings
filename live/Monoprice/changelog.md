@@ -1,6 +1,11 @@
-## PrusaSlicer settings - Monoprice (MP Mini Delta)
+## PrusaSlicer settings - Monoprice (Mini Delta)
 
 # CHANGELOG
+
+## Release 0.0.9
+
+* Change some names and labels to be more consistent
+* Adjust retraction settings for Marlin's "Linear Advance"
 
 ## Release 0.0.8
 

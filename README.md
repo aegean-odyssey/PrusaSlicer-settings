@@ -9,9 +9,9 @@
 
 ## Monoprice MP Mini Delta
 
-These printer settings were developed in conjuction with the
-[aegean-odyssey/mpmd_marlin_1.1.x](https://github.com/aegean-odyssey/mpmd_marlin_1.1.x)
-projectm-- Marlin firmware for the MP Mini Delta printer. This vendor bundle
+These printer settings were developed in conjuction with
+[`aegean-odyssey/mpmd_marlin_1.1.x`](https://github.com/aegean-odyssey/mpmd_marlin_1.1.x)
+firmware -- Marlin firmware for the MP Mini Delta printer. This vendor bundle
 is a good place to start if you want to use PrusaSlicer with your MP Mini Delta.
 
 ## Ultimaker Original

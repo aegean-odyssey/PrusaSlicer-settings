@@ -30,7 +30,7 @@ and attention.
     _for the Ultimaker Original_
 
 * Unzip the file and place the contents in the _vendor_ folder of PrusaSlicer's configuration directory
-  * `C:Users\\_your_username_here_\\AppData\\Roaming\\PrusaSlicer\\vendor` _for Windows_
+  * `C:Users\_your_username_here_\AppData\Roaming\PrusaSlicer\vendor` _for Windows_
   * `/Users/_your_username_here_/Library/Application Support/PrusaSlicer/vendor` _for Mac_
   * `~/.config/PrusaSlicer/vendor` _for Linux_
 

@@ -1,16 +1,15 @@
-## PrusaSlicer settings - Monoprice (MP Mini Delta)
+#### [PrusaSlicer settings](https://github.com/aegean-odyssey/PrusaSlicer-settings)
 
-https://github.com/aegean-odyssey/PrusaSlicer-settings
+### Monoprice (MP Mini Delta)
 
-
-# CHANGES
+### CHANGES
 
 ## 0.1.0
 
 * Restructure and label in keeping Prusa's conventions for
   its settings profiles
 * Configure bed model, texture, and thumbnail files to integrate
-  more seemlessly with improvements found in PrusaSlicer 2.3.0
+  with PrusaSlicer 2.3.0
 * Add Generic filament profiles for PLA, PETG, and TPU
 * Overhaul print profiles 
 

@@ -1,8 +1,7 @@
-#### [PrusaSlicer settings](https://github.com/aegean-odyssey/PrusaSlicer-settings)
+#### [PrusaSlicer-settings](https://github.com/aegean-odyssey/PrusaSlicer-settings)
+# Ultimaker (Original)
 
-### Ultimaker (Original)
-
-### CHANGES
+## CHANGES
 
 ## 0.0.3
 

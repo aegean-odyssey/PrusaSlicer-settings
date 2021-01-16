@@ -1,8 +1,7 @@
-#### [PrusaSlicer settings](https://github.com/aegean-odyssey/PrusaSlicer-settings)
+#### [PrusaSlicer-settings](https://github.com/aegean-odyssey/PrusaSlicer-settings)
+# Monoprice (MP Mini Delta)
 
-### Monoprice (MP Mini Delta)
-
-### CHANGES
+## CHANGES
 
 ## 0.1.0
 

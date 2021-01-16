@@ -1,4 +1,4 @@
-0.1.0 more naming a la "Prusa", latest tweaks, and using linear advance
+0.1.0 adopt Prusa labeling, add generic filaments, use linear advance
 min_slic3r_version = 2.2.0
 0.0.9 more consistent names and labels; adjust retraction settings
 0.0.8 changed to be more in line with the way Prusa does things
